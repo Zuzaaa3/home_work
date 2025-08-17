@@ -4,7 +4,7 @@ void main() {
   var Variable = 'Hello Dart';
   print("String value: " + Variable);
 
-  //there will be an error because myVariable was initially a String
+  //there will be an error because Variable was initially a String
   Variable = 24;
   print("Integer value: " + Variable.toString());
 }
