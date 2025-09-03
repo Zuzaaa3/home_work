@@ -1,5 +1,9 @@
 void main() {
   List<int> numbers = [5, 10, 15, 20, 25];
-  double average = numbers.reduce((a, b) => a + b) / numbers.length;
+  int sum = 0;
+  for (int number in numbers) {
+    sum += number;
+  }
+  double average = sum / numbers.length;
   print(average);
 }
