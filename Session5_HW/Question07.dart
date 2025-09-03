@@ -8,5 +8,5 @@ void main() {
     }
   }
 
-  print('Total (ignoring zeros): $total');
+  print('Total: $total');
 }

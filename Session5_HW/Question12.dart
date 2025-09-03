@@ -2,7 +2,7 @@ void main() {
   String username = '';
 
   if (username.isEmpty) {
-    print('(guest)');
+    print('guest');
   } else {
     print(username);
   }
