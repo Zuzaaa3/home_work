@@ -5,6 +5,6 @@ void main() {
   print("String value: " + Variable);
 
   //there will be an error because Variable was initially a String
-  Variable = 24;
+  //Variable = 24;
   print("Integer value: " + Variable.toString());
 }
