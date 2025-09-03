@@ -3,7 +3,7 @@ void main() {
     'Ahmed': 85,
     'Fatma': 92,
     'Omar': 78,
-    'Yasmin': 96,
+    'Yasmina': 96,
   };
   String topStudent = '';
   int highestMark = 0;

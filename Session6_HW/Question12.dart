@@ -10,6 +10,6 @@ void personInfo({
 }
 
 void main() {
-  personInfo(firstName: 'Mohamed', lastName: 'Hassan', age: 30);
+  personInfo(firstName: 'Ziad', lastName: 'Amr', age: 24);
   personInfo(firstName: 'Nour', lastName: 'Mahmoud');
 }
