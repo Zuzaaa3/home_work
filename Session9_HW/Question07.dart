@@ -15,7 +15,6 @@ void main() {
     }
 
     number = sum;
-    print("Sum: $number");
   }
 
   print("Final single digit: $number");

@@ -7,10 +7,10 @@ class Movie {
 
 void main() {
   List<Movie> movies = [
-    Movie("Inception", 8.8),
+    Movie("The Dark Knight", 8.8),
     Movie("Avatar", 7.8),
-    Movie("Titanic", 7.8),
-    Movie("Any Thing", 3.7),
+    Movie("Iron Man", 7.8),
+    Movie("Hitman", 6.7),
   ];
 
   for (int i = 0; i < movies.length; i++) {

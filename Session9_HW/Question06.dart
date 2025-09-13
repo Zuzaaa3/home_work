@@ -4,15 +4,11 @@ class NumberCheck {
   NumberCheck(this.value);
 
   bool isEven() {
-    if (value % 2 == 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return value % 2 == 0;
   }
 }
 
 void main() {
-  NumberCheck num = NumberCheck(8);
+  NumberCheck num = NumberCheck(7);
   print("Is ${num.value} even? ${num.isEven()}");
 }

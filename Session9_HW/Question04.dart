@@ -10,8 +10,8 @@ class Employee {
 }
 
 void main() {
-  Employee emp = Employee("John", 5000);
+  Employee emp = Employee("Ziad", 50000);
   print("Original salary: ${emp.salary}");
-  emp.giveRaise(1000);
+  emp.giveRaise(10000);
   print("New salary: ${emp.salary}");
 }
