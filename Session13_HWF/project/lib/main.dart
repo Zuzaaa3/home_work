@@ -54,38 +54,38 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Left side - Green containers
+                    // Left side - Green containers stacked vertically
                     Column(
                       children: [
                         Container(
-                          height: 75,
-                          width: 155,
+                          height: 90,
+                          width: 160,
                           color: Color(0xFF95C9A2),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(top: 20.0),
+                          padding: const EdgeInsets.only(top: 15.0),
                           child: Container(
-                            height: 75,
-                            width: 155,
+                            height: 90,
+                            width: 160,
                             color: Color(0xFF95C9A2),
                           ),
                         ),
                       ],
                     ),
 
-                    // Right side - Orange/yellow containers
-                    Column(
+                    // Right side - Orange/yellow containers SIDE BY SIDE
+                    Row(
                       children: [
                         Container(
-                          height: 85,
-                          width: 155,
+                          height: 195,
+                          width: 70,
                           color: Color(0xFFF5C272),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(top: 20.0),
+                          padding: const EdgeInsets.only(left: 10.0),
                           child: Container(
-                            height: 85,
-                            width: 155,
+                            height: 195,
+                            width: 70,
                             color: Color(0xFFF5C272),
                           ),
                         ),
@@ -105,10 +105,27 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(height: 90, width: 73, color: Color(0xFFCFB3E0)),
-                    Container(height: 90, width: 73, color: Color(0xFFB695D1)),
-                    Container(height: 90, width: 73, color: Color(0xFFBFA3D8)),
-                    Container(height: 90, width: 73, color: Color(0xFFD9C9E8)),
+                    Container(height: 110, width: 75, color: Color(0xFFCFB3E0)),
+                    // Second purple container with two sections
+                    Column(
+                      children: [
+                        Container(
+                          height: 52,
+                          width: 75,
+                          color: Color(0xFFB695D1),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 6.0),
+                          child: Container(
+                            height: 52,
+                            width: 75,
+                            color: Color(0xFFB695D1),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Container(height: 110, width: 75, color: Color(0xFFBFA3D8)),
+                    Container(height: 110, width: 75, color: Color(0xFFD9C9E8)),
                   ],
                 ),
               ),
@@ -123,16 +140,8 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      height: 100,
-                      width: 155,
-                      color: Color(0xFF8FCFC9),
-                    ),
-                    Container(
-                      height: 100,
-                      width: 155,
-                      color: Color(0xFF8FCFC9),
-                    ),
+                    Container(height: 90, width: 160, color: Color(0xFF8FCFC9)),
+                    Container(height: 90, width: 160, color: Color(0xFF8FCFC9)),
                   ],
                 ),
               ),
